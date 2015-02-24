@@ -1,0 +1,10 @@
+/*
+* Modificacion de objetos si es mobile
+*/
+
+@include media-query(celular) {
+ 	.hide-on-mobile
+ 		{ 
+ 			display: none !important; 
+ 		}
+}

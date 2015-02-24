@@ -1,0 +1,51 @@
+/*
+*   FUENTES POR DEFECTO DE Web Starter Kit
+*/
+
+@font-face {
+  font-family: 'Roboto Condensed';
+  font-style: normal;
+  font-weight: 300;
+  src: url("" + $fonts_url + "/RobotoCondensed-Light.eot");
+  src: local('Roboto Condensed Light'), local('RobotoCondensed-Light'), url("" + $fonts_url + "/RobotoCondensed-Light.eot") format('embedded-opentype'), url("" + $fonts_url + "/RobotoCondensed-Light.woff") format('woff');
+}
+
+@font-face {
+  font-family: 'Roboto Condensed';
+  font-style: normal;
+  font-weight: 400;
+  src: url("" + $fonts_url + "/RobotoCondensed-Regular.eot");
+  src: local('Roboto Condensed Regular'), local('RobotoCondensed-Regular'), url("" + $fonts_url + "/RobotoCondensed-Regular.eot") format('embedded-opentype'), url("" + $fonts_url + "/RobotoCondensed-Regular.woff") format('woff');
+}
+
+@font-face {
+  font-family: 'Roboto Condensed';
+  font-style: normal;
+  font-weight: 700;
+  src: url("" + $fonts_url + "/RobotoCondensed-Bold.eot");
+  src: local('Roboto Condensed Regular'), local('RobotoCondensed-Bold'), url("" + $fonts_url + "/RobotoCondensed-Bold.eot") format('embedded-opentype'), url("" + $fonts_url + "/RobotoCondensed-Bold.woff") format('woff');
+}
+
+@font-face {
+  font-family: 'Roboto Condensed';
+  font-style: italic;
+  font-weight: 300;
+  src: url("" + $fonts_url + "/RobotoCondensed-LightItalic.eot");
+  src: local('Roboto Condensed Light Italic'), local('RobotoCondensed-LightItalic'), url("" + $fonts_url + "/RobotoCondensed-LightItalic.eot") format('embedded-opentype'), url("" + $fonts_url + "/RobotoCondensed-LightItalic.woff") format('woff');
+}
+
+@font-face {
+  font-family: 'Roboto Condensed';
+  font-style: italic;
+  font-weight: 400;
+  src: url("" + $fonts_url + "/RobotoCondensed-Italic.eot");
+  src: local('Roboto Condensed Italic'), local('RobotoCondensed-Italic'), url("" + $fonts_url + "/RobotoCondensed-Italic.eot") format('embedded-opentype'), url("" + $fonts_url + "/RobotoCondensed-Italic.woff") format('woff');
+}
+
+@font-face {
+  font-family: 'Roboto Condensed';
+  font-style: italic;
+  font-weight: 700;
+  src: url("" + $fonts_url + "/RobotoCondensed-BoldItalic.eot");
+  src: local('Roboto Condensed Bold Italic'), local('RobotoCondensed-BoldItalic'), url("" + $fonts_url + "/RobotoCondensed-BoldItalic.eot") format('embedded-opentype'), url("" + $fonts_url + "/RobotoCondensed-BoldItalic.woff") format('woff');
+}

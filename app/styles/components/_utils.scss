@@ -1,0 +1,46 @@
+/**
+*
+* Archivo de Variables y Utilidades
+*
+**/
+
+/*==========  VARIABLES  ==========*/
+
+  $fonts_url : "/styles/fonts";
+
+  // Definir breakpoints
+  $celular: 999px !default;
+
+
+  // Definir colores
+  $colorText: #000;
+
+  // Definir font family
+  $fontDefault: 'Roboto Condensed', Helvetica, sans-serif !default;
+  $fontHighlight: 'Roboto Condensed', Helvetica, sans-serif !default;
+
+  // Definir font sizes
+  $fontSmall: 13px !default;
+  $fontBase: 16px  !default;
+  $fontMedium: 20px !default;
+  $fontLarge: 26px !default;
+  $fontXLarge: 42px !default;
+  $fontXXLarge: 68px !default;
+  $fontHuge: 110px !default;
+
+  // Definir sidebar stuff
+  $sidebarWidth: 280px !default;
+
+
+/*==========  MIXINS  ==========*/
+
+  @mixin media-query($media-query) {
+    @if $media-query == celular {
+      @media only screen and (max-width: $celular) { @content; }
+    }
+
+    @if $media-query == desktop {
+      @media only screen and (min-width: $celular) { @content; }
+    }
+  }
+
