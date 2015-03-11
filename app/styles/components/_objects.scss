@@ -2,3 +2,11 @@
 * Objetos
 * Solo clases abstractas
 */
+
+@include gridle_setup((
+    context : 12,
+    gutter-width : 44px,
+    debug : false
+));
+
+@include gridle_generate_classes();
